@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linktree Animado</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="fondo-colorido">
+  <div class="tarjeta animacion-aparicion">
+    <div class="header">
+      <img src="c:\Users\usuario\Documents\GitHub\SandroBM.github.io\Imagenes\5ae19a4705e9083c1ed5efcb99ceaf94.jpg" alt="Imagen de perfil" class="imagen-perfil">
+      <h1 class="nombre">Mi Linktree</h1>
+    </div>
+
+    <p class="mensaje-secreto">¡De hecho!</p>
+    
+    <div class="enlaces">
+      <a href="https://x.com/Sandro_ou" class="boton" onclick="cambiarColor(this)">Twitter</a>
+      <a href="https://open.spotify.com/playlist/205BvH4Jw4hOZBDAzm7ube?si=4b8e6bff928440f2" class="boton" onclick="cambiarColor(this)">Play list</a>
+      <a href="https://github.com/SandroBM" class="boton" onclick="cambiarColor(this)">GitHub</a>
+      
+    </div>
+
+    <div class="info-adicional">
+      <h2>Contacto</h2>
+      <p>Email: <a href="mayonesaconqueso@gmail.com">mayonesaconqueso@gmail.com</a></p>
+    </div>
+  </div>
+
+  <script>
+    function cambiarColor(elemento) {
+      elemento.classList.toggle('seleccionado');
+    }
+  </script>
+</body>
+</html>
